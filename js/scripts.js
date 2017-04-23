@@ -1,5 +1,4 @@
 
-// on reset clear textarea
 function countCharacters(){
   var text = document.querySelector("textarea");
   var counter = document.querySelector(".counter");
