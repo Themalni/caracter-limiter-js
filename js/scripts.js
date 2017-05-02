@@ -4,12 +4,13 @@ function countCharacters(){
   var counter = document.querySelector(".counter");
   var resetBtn = document.querySelector(".btn");
   var maxTextLength = 250;
-  counter.innerHTML = maxTextLength;
 
   function displayCounter(){
     var textValue = text.value;
     var counterRemain = maxTextLength - textValue.length;
-    if(textValue.length <= 239){
+    if(textValue.length === 0){
+      counter.innerHTML = maxTextLength;
+    }else if(textValue.length <= 239){
       counter.style.color = "#59b542";
       counter.innerHTML = "-" + counterRemain.toString();
     }else if(textValue.length <= 249){
