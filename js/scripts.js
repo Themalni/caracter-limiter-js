@@ -4,6 +4,7 @@ function countCharacters(){
   var counter = document.querySelector(".counter");
   var resetBtn = document.querySelector(".btn");
   var maxTextLength = 250;
+  counter.innerHTML = maxTextLength;
 
   function displayCounter(){
     var textValue = text.value;
