@@ -60,7 +60,7 @@ body {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   opacity: 0;
-  transform: translateY(80%) scale(.6, .6);
+  transform: translateX(-50%) translateY(80%) scale(.6, .6);
   transition: all .3s cubic-bezier(.17,.67,.83,.67);
 }
 .app-warning:before {
@@ -192,7 +192,7 @@ body {
   font-size: 1.3em;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 360px){
   .main {
     height: 100vh;
   }
