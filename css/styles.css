@@ -8,6 +8,7 @@ body {
   min-height: 400px;
   background-color: #47bcd9;
   text-align: center;
+  overflow-x: hidden;
 }
 .app-name,
 .app-description,
