@@ -27,12 +27,12 @@ function countCharacters(){
   function showWarning(){
     var message = document.querySelector(".app-warning");
     message.style.opacity = 1;
-    message.style.transform = "translateY(0%) scale(1, 1)";
+    message.style.transform = "translateX(-50%) translateY(0%) scale(1, 1)";
   }
   function hideWarning(){
     var message = document.querySelector(".app-warning");
     message.style.opacity = 0;
-    message.style.transform = "translateY(80%) scale(.8, .8)";
+    message.style.transform = "translateX(-50%) translateY(80%) scale(.8, .8)";
   }
   function reset(){
     text.value = "";
