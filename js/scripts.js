@@ -27,7 +27,7 @@ function countCharacters(){
   function showWarning(){
     var message = document.querySelector(".app-warning");
     message.style.opacity = 1;
-    message.style.transform = "translateX(0%) translateY(10%) scale(1, 1)";
+    message.style.transform = "translateX(0%) translateY(50%) scale(1, 1)";
   }
   function hideWarning(){
     var message = document.querySelector(".app-warning");
