@@ -199,10 +199,10 @@ body {
     height: 100vh;
     min-height: 450px;
   }
-  .app-warning {
+/*   .app-warning {
     left: 55%;
     transform: translateX(-50%);
-  }
+  } */
   .app-textarea-container {
     max-width: 90%;
     height: 300px;
